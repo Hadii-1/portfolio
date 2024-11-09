@@ -1,0 +1,81 @@
+
+body{
+    font-family: Arial, sans-serif;
+}
+#portfolio{
+    height: 50px;
+ text-align: center;
+ background-color: rgb(47, 44, 44);
+ margin-top: 0;
+ color: white;
+ border: 1px solid rgb(0, 0, 0);
+
+ padding-top: 2px;
+ padding-bottom: 20px;
+}
+#nav{
+   
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 2px;
+   margin: 0;
+ background-color: rgb(233, 233, 233);
+   font-size: x-large;
+   
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+   color: black;
+
+}
+
+.box{
+ background-color: rgb(255, 255, 255);
+ margin-top: 0;
+ height: 470px;
+ justify-content: center;
+ justify-items: center;
+padding-top: 0;
+
+
+ 
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 350px;
+    font-size: large;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: gainsboro;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    background-color: rgb(47, 44, 44);
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-bottom: 0px;
+ padding-top: 10px;
+    
+    
+}
+a:hover, a:active{
+    color: rgb(103, 15, 227);
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+footer a {
+    color: white;
+    font-size: small;
+}

@@ -1,0 +1,136 @@
+#portfolio{
+    height: 50px;
+    
+ text-align: center;
+ background-color: rgb(47, 44, 44);
+ margin-top: 0;
+ color: white;
+ border: 1px solid rgb(0, 0, 0);
+
+ padding-top: 2px;
+ padding-bottom: 20px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+#nav{
+    
+   
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    margin: 0;
+  background-color: rgb(233, 233, 233);
+    font-size: x-large;
+    
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+ 
+ }
+
+
+
+
+.skills-section {
+    width: 600px;
+    margin-top: 30px; 
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    height: 480px;
+    margin-left: 450px;
+    text-align: center;
+    
+}
+
+.skills-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill p {
+    font-weight: bold;
+    
+    margin-bottom: 5px;
+}
+
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+
+.html {
+    width: 90%;
+    background-color: rgb(47, 44, 44);
+    color:white;
+}
+
+.css {
+    width: 69%;
+    color:white;
+    background-color: rgb(47, 44, 44);
+}
+
+.C {
+    width: 80%;
+    color:white;
+    background-color:rgb(47, 44, 44);
+}
+
+.python {
+    width: 45%;
+    background-color: rgb(47, 44, 44);
+    color: white;
+}
+
+.Cplus{
+    width: 85%;
+    color:white;
+    background-color:rgb(47, 44, 44);
+}
+footer{
+    background-color: rgb(47, 44, 44);
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 10px;
+ margin-top:30px ;
+    width: 100%;
+}
+a:hover, a:active{
+    color: rgb(103, 15, 227);
+}
+a{
+    text-decoration: none;
+
+}
+footer a {
+    color: white;
+    font-size: small;
+}

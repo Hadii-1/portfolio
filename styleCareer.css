@@ -1,0 +1,117 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+#portfolio{
+    height: 50px;
+ text-align: center;
+ background-color: rgb(47, 44, 44);
+ margin-top: 0;
+ color: white;
+ border: 1px solid rgb(0, 0, 0);
+
+ padding-top: 2px;
+ padding-bottom: 20px;
+}
+#nav{
+  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    margin: 0;
+  background-color: rgb(233, 233, 233);
+    font-size: x-large;
+    
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+ 
+ }
+
+
+
+.career-goals {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.career-goals h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.goals-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.goal-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.goal-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.goal-section ul li {
+    background-color: gainsboro;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+    
+}
+
+.motivational-quote {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(47, 44, 44);
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+}
+
+.motivational-quote h3 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+   
+}
+footer{
+    background-color: rgb(47, 44, 44);
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+a:hover, a:active{
+    color:rgb(103, 15, 227);
+}
+a{
+    text-decoration: none;
+
+}
+footer a {
+    color: white;
+    font-size: small;
+}

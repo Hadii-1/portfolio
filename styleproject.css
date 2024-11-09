@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, sans-serif;
+}
+#portfolio{
+ 
+    height: 50px;
+ text-align: center;
+ background-color: rgb(47, 44, 44);
+ margin-top: 0;
+ color: white;
+ border: 1px solid rgb(0, 0, 0);
+
+ padding-top: 2px;
+ padding-bottom: 20px;
+}
+#nav{
+   
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 2px;
+  margin: 0;
+background-color: rgb(233, 233, 233);
+  font-size: x-large;
+  
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  color: black;
+
+}
+a:hover, a:active{
+  color: rgb(103, 15, 227);
+}
+a{
+  text-decoration: none;
+
+}
+.bigbox{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  gap: 50px;
+  
+ 
+}
+.project1{
+ 
+  width: 300px;
+background-color:gainsboro ;
+height: 450px;
+text-align: center;
+border-radius: 10%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+.project2{
+ 
+  width: 300px;
+background: gainsboro;
+height: 450px;
+text-align: center;
+border-radius: 10%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.project3{
+ 
+  width: 300px;
+background: gainsboro;
+height: 450px;
+text-align: center;
+border-radius: 10%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+  background-color: rgb(47, 44, 44);
+  font-size: 16px;
+  color: white;
+  margin-top: 3.8rem;
+  text-align: center;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+}
+.project3 p {
+  color: rgb(0, 0, 0);
+}
+footer a {
+  color: white;
+  font-size: small;
+}
